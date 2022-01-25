@@ -45,7 +45,7 @@ func main() {
 	}
 
 	// Make transaction
-	coinTotalIssuance := uint64(1000000)
+	coinTotalIssuance := uint64(100000000000000)
 	coinDecimalsForDisplay := uint32(0) // i.e. 1 accounting unit in a transfer == 1 coin; we are not working in microCoins or anything
 	accountsAreDefaultFrozen := false // if you have this coin, you can transact, the freeze manager doesn't need to unfreeze you first
 	managerAddress := ownerAddress // the account issuing this is also the account in charge of managing this
